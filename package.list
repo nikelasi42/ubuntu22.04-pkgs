@@ -286,6 +286,8 @@ gir1.2-upowerglib-1.0:amd64			install
 gir1.2-vte-2.91:amd64				install
 gir1.2-webkit2-4.0:amd64			install
 gir1.2-wnck-3.0:amd64				install
+git						install
+git-man						install
 gjs						install
 gkbd-capplet					install
 glib-networking:amd64				install
@@ -567,6 +569,7 @@ libelf1:amd64					install
 libenchant-2-2:amd64				install
 libencode-locale-perl				install
 libepoxy0:amd64					install
+liberror-perl					install
 libespeak-ng1:amd64				install
 libestr0:amd64					install
 libevdev2:amd64					install
