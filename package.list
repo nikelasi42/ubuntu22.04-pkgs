@@ -157,6 +157,7 @@ fonts-mlym					install
 fonts-nakula					install
 fonts-navilu					install
 fonts-noto-cjk					install
+fonts-noto-cjk-extra				install
 fonts-noto-color-emoji				install
 fonts-noto-mono					install
 fonts-opensymbol				install
@@ -330,6 +331,7 @@ gnome-terminal-data				install
 gnome-themes-extra:amd64			install
 gnome-themes-extra-data				install
 gnome-user-docs					install
+gnome-user-docs-ja				install
 gnupg						install
 gnupg-l10n					install
 gnupg-utils					install
@@ -385,6 +387,7 @@ ibus-data					install
 ibus-gtk:amd64					install
 ibus-gtk3:amd64					install
 ibus-gtk4:amd64					install
+ibus-mozc					install
 ibus-table					install
 iio-sensor-proxy				install
 im-config					install
@@ -416,6 +419,10 @@ language-pack-en				install
 language-pack-en-base				install
 language-pack-gnome-en				install
 language-pack-gnome-en-base			install
+language-pack-gnome-ja				install
+language-pack-gnome-ja-base			install
+language-pack-ja				install
+language-pack-ja-base				install
 language-selector-common			install
 language-selector-gnome				install
 laptop-detect					install
@@ -544,6 +551,7 @@ libdjvulibre-text				install
 libdjvulibre21:amd64				install
 libdns-export1110				install
 libdotconf0:amd64				install
+libdouble-conversion3:amd64			install
 libdrm-amdgpu1:amd64				install
 libdrm-common					install
 libdrm-intel1:amd64				install
@@ -795,6 +803,7 @@ libmaxminddb0:amd64				install
 libmbim-glib4:amd64				install
 libmbim-proxy					install
 libmd0:amd64					install
+libmd4c0:amd64					install
 libmediaart-2.0-0:amd64				install
 libmm-glib0:amd64				install
 libmnl0:amd64					install
@@ -873,6 +882,7 @@ libpcap0.8:amd64				install
 libpcaudio0:amd64				install
 libpci3:amd64					install
 libpciaccess0:amd64				install
+libpcre2-16-0:amd64				install
 libpcre2-32-0:amd64				install
 libpcre2-8-0:amd64				install
 libpcre3:amd64					install
@@ -914,6 +924,12 @@ libpython3.10-stdlib:amd64			install
 libqmi-glib5:amd64				install
 libqmi-proxy					install
 libqpdf28:amd64					install
+libqt5core5a:amd64				install
+libqt5dbus5:amd64				install
+libqt5gui5:amd64				install
+libqt5network5:amd64				install
+libqt5svg5:amd64				install
+libqt5widgets5:amd64				install
 libraqm0:amd64					install
 libraw1394-11:amd64				install
 libreadline8:amd64				install
@@ -999,6 +1015,7 @@ libtirpc-common					install
 libtirpc3:amd64					install
 libtotem-plparser-common			install
 libtotem-plparser18:amd64			install
+libtraceevent1:amd64				install
 libtracker-sparql-3.0-0:amd64			install
 libtry-tiny-perl				install
 libtss2-esys-3.0.2-0:amd64			install
@@ -1086,6 +1103,8 @@ libxcb-shm0:amd64				install
 libxcb-sync1:amd64				install
 libxcb-util1:amd64				install
 libxcb-xfixes0:amd64				install
+libxcb-xinerama0:amd64				install
+libxcb-xinput0:amd64				install
 libxcb-xkb1:amd64				install
 libxcb-xv0:amd64				install
 libxcb1:amd64					install
@@ -1134,15 +1153,22 @@ linux-base					install
 linux-firmware					install
 linux-generic-hwe-22.04				install
 linux-headers-6.8.0-40-generic			install
+linux-headers-6.8.0-52-generic			install
 linux-headers-generic-hwe-22.04			install
 linux-hwe-6.8-headers-6.8.0-40			install
+linux-hwe-6.8-headers-6.8.0-52			install
 linux-hwe-6.8-tools-6.8.0-40			install
+linux-hwe-6.8-tools-6.8.0-52			install
 linux-image-6.8.0-40-generic			install
+linux-image-6.8.0-52-generic			install
 linux-image-generic-hwe-22.04			install
 linux-modules-6.8.0-40-generic			install
+linux-modules-6.8.0-52-generic			install
 linux-modules-extra-6.8.0-40-generic		install
+linux-modules-extra-6.8.0-52-generic		install
 linux-sound-base				install
 linux-tools-6.8.0-40-generic			install
+linux-tools-6.8.0-52-generic			install
 linux-tools-common				install
 locales						install
 login						install
@@ -1165,6 +1191,9 @@ modemmanager					install
 mokutil						install
 mount						install
 mousetweaks					install
+mozc-data					install
+mozc-server					install
+mozc-utils-gui					install
 mscompress					install
 mtr-tiny					install
 mutter-common					install
@@ -1325,6 +1354,8 @@ python3-yaml					install
 python3-zipp					install
 python3.10					install
 python3.10-minimal				install
+qt5-gtk-platformtheme:amd64			install
+qttranslations5-l10n				install
 readline-common					install
 rfkill						install
 rsync						install
