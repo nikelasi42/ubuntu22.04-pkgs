@@ -1298,6 +1298,8 @@ make						install
 man-db						install
 manpages					install
 manpages-dev					install
+manpages-posix					install
+manpages-posix-dev				install
 mawk						install
 media-types					install
 memtest86+					install
