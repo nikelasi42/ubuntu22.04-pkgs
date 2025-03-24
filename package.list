@@ -76,6 +76,7 @@ cpio						install
 cpp						install
 cpp-10						install
 cpp-11						install
+cpp-12						install
 cppcheck					install
 cracklib-runtime				install
 cron						install
@@ -260,6 +261,7 @@ gcc-10						install
 gcc-10-base:amd64				install
 gcc-11						install
 gcc-11-base:amd64				install
+gcc-12						install
 gcc-12-base:amd64				install
 gcc-13-base:amd64				install
 gcr						install
@@ -489,6 +491,7 @@ libapt-pkg6.0:amd64				install
 libarchive13:amd64				install
 libargon2-1:amd64				install
 libasan6:amd64					install
+libasan8:amd64					install
 libasound2:amd64				install
 libasound2-data					install
 libasound2-plugins:amd64			install
@@ -716,6 +719,7 @@ libgc1:amd64					install
 libgcab-1.0-0:amd64				install
 libgcc-10-dev:amd64				install
 libgcc-11-dev:amd64				install
+libgcc-12-dev:amd64				install
 libgcc-s1:amd64					install
 libgck-1-0:amd64				install
 libgcr-base-3-1:amd64				install
@@ -840,12 +844,14 @@ libical3:amd64					install
 libice6:amd64					install
 libicu-dev:amd64				install
 libicu70:amd64					install
+libid3tag0:amd64				install
 libidn12:amd64					install
 libidn2-0:amd64					install
 libiec61883-0:amd64				install
 libieee1284-3:amd64				install
 libijs-0.35:amd64				install
 libimagequant0:amd64				install
+libimlib2:amd64					install
 libimobiledevice6:amd64				install
 libinih1:amd64					install
 libinput-bin					install
@@ -1188,6 +1194,7 @@ libtraceevent1:amd64				install
 libtracker-sparql-3.0-0:amd64			install
 libtry-tiny-perl				install
 libtsan0:amd64					install
+libtsan2:amd64					install
 libtss2-esys-3.0.2-0:amd64			install
 libtss2-mu0:amd64				install
 libtss2-sys1:amd64				install
@@ -1271,6 +1278,7 @@ libxatracker2:amd64				install
 libxau-dev:amd64				install
 libxau6:amd64					install
 libxaw7:amd64					install
+libxcb-cursor0:amd64				install
 libxcb-dri2-0:amd64				install
 libxcb-dri3-0:amd64				install
 libxcb-glx0:amd64				install
@@ -1615,6 +1623,8 @@ samba-libs:amd64				install
 sane-airscan					install
 sane-utils					install
 sbsigntool					install
+screenfetch					install
+scrot						install
 seahorse					install
 secureboot-db					install
 sed						install
@@ -1719,6 +1729,7 @@ vim						install
 vim-common					install
 vim-runtime					install
 vim-tiny					install
+virtualbox-7.1					install
 wamerican					install
 wbritish					install
 wget						install
