@@ -1426,6 +1426,7 @@ nautilus-sendto					install
 nautilus-share					install
 ncurses-base					install
 ncurses-bin					install
+net-tools					install
 netbase						install
 netcat-openbsd					install
 netplan.io					install
