@@ -71,6 +71,7 @@ colord-data					install
 command-not-found				install
 console-setup					install
 console-setup-linux				install
+containerd.io					install
 coreutils					install
 cpio						install
 cpp						install
@@ -118,6 +119,11 @@ dmz-cursor-theme				install
 dns-root-data					install
 dnsmasq-base					install
 docbook-xml					install
+docker-buildx-plugin				install
+docker-ce					install
+docker-ce-cli					install
+docker-ce-rootless-extras			install
+docker-compose-plugin				install
 dosfstools					install
 dpkg						install
 dpkg-dev					install
@@ -1131,6 +1137,7 @@ libsgutils2-2:amd64				install
 libshout3:amd64					install
 libsigc++-2.0-0v5:amd64				install
 libslang2:amd64					install
+libslirp0:amd64					install
 libsm6:amd64					install
 libsmartcols1:amd64				install
 libsmbclient:amd64				install
@@ -1471,6 +1478,7 @@ perl						install
 perl-base					install
 perl-modules-5.34				install
 perl-openssl-defaults:amd64			install
+pigz						install
 pinentry-curses					install
 pinentry-gnome3					install
 pipewire:amd64					install
@@ -1647,6 +1655,7 @@ shim-signed					install
 shotwell					install
 shotwell-common					install
 simple-scan					install
+slirp4netns					install
 snapd						install
 software-properties-common			install
 software-properties-gtk				install
