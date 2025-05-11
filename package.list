@@ -51,6 +51,7 @@ branding-ubuntu					install
 brltty						install
 bsdextrautils					install
 bsdutils					install
+btop						install
 bubblewrap					install
 build-essential					install
 busybox-initramfs				install
